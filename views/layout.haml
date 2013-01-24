@@ -1,0 +1,14 @@
+!!! XML
+!!! Strict
+ 
+%html
+  %head
+    %title Sinatra Template
+    %link{:href => "/styles.css", :rel => "stylesheet", :type => "text/css", :media => "screen"}
+  %body
+    #branding
+      %h1 Sinatra Template
+ 
+    #content
+      != yield
+

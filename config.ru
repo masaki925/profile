@@ -1,3 +1,3 @@
 # encoding: UTF-8
-require './route'
+require './app'
 run Sinatra::Application
